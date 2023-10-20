@@ -10,7 +10,7 @@ nav {
 	position: relative;
 	width: 1000px;
 	height: 55px;
-	background-color: #ffffff96;
+	background-color: #ffffffd0;
 	border-radius: 8px;
 	font-size: 0;
 }
@@ -113,9 +113,18 @@ body {
 
 
 
-.white{background-color: rgba(255, 255, 255, 0.627);text-align: center;margin-left: 20%;margin-right: 20%;border-radius: 10%;}
+.white{background-color: rgba(255, 255, 255, 0.801);text-align: center;border-radius: 10%;margin: 105px;}
 
-#et{}
+.white{   width: 1000px;
+	height: 1000px;
+	border: 1px solid black;}
+
+#testi{display: flex; 
+	justify-content: center;
+	margin-top: 10px;}
+
+
+#et{font-size: 35px;}
 
 #termine{font-size: 23px; text-align: left;margin-left: 15px;margin-right: 15px;}
 
@@ -127,7 +136,8 @@ body {
 
 
 
-.img1{width: 300px;height: auto;margin: 25px; border-radius: 30%;border: 6px solid rgba(255, 255, 255, 0.627);}
+.img1{width: 300px;height: auto;margin: 25px; border-radius: 30%;border: 6px solid rgba(255, 255, 255, 0.627);transition: 800ms;}
+
 
 @media screen and (max-width: 1200px) {
 
@@ -138,7 +148,7 @@ body {
     #face:hover{width: 150px;height: 150px;}
 	.white{margin-right: 0% ;margin-left: 0%;margin-top: 70px;}
 	body {background-image: none;}
-	#pane1{display: flex;
-		flex-direction: column; align-items: center;}
-		.img1{width: 100%;height: auto;}
+	#pane1{display: flex;flex-direction: column; align-items: center;}
+	.img1{width: 100%;height: auto;}
+	.white{border-radius: 0%;}
 }
